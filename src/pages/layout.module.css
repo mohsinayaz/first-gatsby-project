@@ -1,0 +1,38 @@
+.container {
+  margin: 0 auto;
+  width: 1500px;
+  font-family: sans-serif;
+}
+
+.header-container {
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: grey;
+  height: 60px;
+}
+
+.links {
+  display: flex;
+  list-style: none;
+}
+
+.link {
+  padding-right: 2rem;
+}
+
+.link-item {
+  color: white;
+  text-decoration: none;
+}
+
+.link-item:hover {
+  color: deepskyblue;
+}
+
+.site-data {
+  font-size: 2rem;
+  color: gray;
+  font-weight: 700;
+}
